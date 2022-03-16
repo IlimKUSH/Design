@@ -205,6 +205,7 @@ input{
 }
 .end__bot{
     display: flex;
+    padding-bottom: 60px;
 }
 .social{
     margin-top: 77px;
