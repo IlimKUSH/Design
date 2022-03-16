@@ -1,0 +1,215 @@
+.projects__inner{
+    padding: 105px 135px;
+}
+.top__projects{
+    display: flex;
+    justify-content: space-between;
+}
+.projects__title{
+    font-family: 'Inknut Antiqua';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 64px;
+    text-transform: uppercase;
+    color: #111111;
+}
+.projects__descr{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(17, 17, 17, 0.50133);
+}
+.line{
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 85px;
+    background: #111111;
+    height: 2px;
+}
+.left__title {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #111111;
+    margin-top: 73px;
+    margin-bottom: 10px;
+    display: flex;
+    padding-left: 16px;
+}
+.bot-btn {
+    display: flex;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    border: none;
+    transition: ease-out 0.7s;
+    box-shadow: inset 0 0 0 0 #111111;
+    outline: none;
+    background-color: #fff;
+    width: 150px;
+    height: 48px;
+    padding-left: 16px;
+    border-radius: 3px;
+    margin-top: 15px;
+    align-items: center;
+}
+.bot-btn:hover{
+    box-shadow: inset 195px 0 0 0 #111111;
+    cursor: pointer;
+    color: #fff;
+}
+.top__right {
+    margin-top: 78px;
+    margin-left: 130px;
+    position: relative;
+    background-color: #F8E71C;
+    max-width: 870px;
+    width: 870px;
+}
+.right__inner {
+    display: flex;
+}
+.mid__right {
+    background-color: #FF564F;
+    position: relative;
+    max-width: 870px
+}
+.text__title {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #111111;
+    margin-top: 219px;
+    margin-left: 48px;
+}
+.text__about {
+    font-family: 'Inknut Antiqua';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #111111;
+    margin-bottom: 57px;
+    margin-left: 48px;
+    margin-top: 12px;
+}
+.right__img{
+    top: -54px;
+    position: absolute;
+    left: 384px;
+}
+.bot__projects{
+    display: flex;
+}
+.bot__img{
+    position: absolute;
+    top: -17px;
+    position: absolute;
+    left: 307px;
+}
+.mid__title{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 219px;
+    margin-left: 48px;
+}
+.mid__about{
+    font-family: 'Inknut Antiqua';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 57px;
+    margin-left: 48px;
+    margin-top: 12px;
+}
+.mid__right{
+    margin-top: 41px;
+    margin-left: 130px;
+}
+
+.mid-btn{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 170px;
+    height: 48px;
+    background-color: #FF564F;
+    border-radius: 3px;
+    padding: 14px 37px;
+    border: none;
+    transition: ease-out 0.4s;
+    margin-left: 479px;
+    margin-top: 80px;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+}
+
+.mid-btn:hover{
+    color: #111111;
+    cursor: pointer;
+}
+.mid-btn:before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: lavender;
+    border-radius: 3px;
+}
+.mid-btn:hover:before{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+}
+/* .mid-btn:hover{
+    box-shadow: inset 195px 0 0 0 cadetblue;
+    cursor: pointer;
+    color: #000;
+}
+
+.mid-inner{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+} */

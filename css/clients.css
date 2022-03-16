@@ -1,0 +1,143 @@
+.clients__bg{
+    background-color: #111;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding-left: 135px;
+    padding-top: 153px;
+    padding-bottom: 117px;
+    position: relative;
+    height: 464px;
+}
+.top__title{
+    font-family: 'Inknut Antiqua';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 64px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.top__descr{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 34px;
+}
+.apple{
+    background-color: #417505;
+    max-width: 470px;
+    padding: 48px;
+}
+.apple__top{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.apple__bot{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.apple__title{
+    display: flex;
+}
+.descr__bot{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.502972);
+    margin-top: 107px;
+}
+.micro{
+    background-color: #9013FE;
+    max-width: 470px;
+    margin-left: 30px;
+    padding: 48px;
+}
+
+.micro__title{
+    display: flex;
+}
+.apple__text{
+    margin-left: 26px;
+    margin-top: 8px;
+}
+.clients__swiper{
+    max-width: 1018px;
+    position: absolute;
+    left: 743px;
+}
+/* .clients .swiper-button-next:after, .clients .swiper-rtl .clients .swiper-button-prev:after {
+    position: absolute;
+    content: 'next';
+    top: 283px;
+    right: 1255px;
+}
+.clients .swiper-button-prev:after, .clients .swiper-rtl .clients .swiper-button-next:after {
+    content: 'prev';
+    position: absolute;
+    top: 283px;
+    right: 593px;
+} */
+.clients .swiper-button-prev, .clients .swiper-rtl .clients .swiper-button-next {
+    left: -597px;
+    top: 539px;
+    right: auto;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    left: -540px;
+    top: 539px;
+}
+.clients .arrows{
+    top: -2px;
+    position: absolute;
+}
+.tri-right-bot2{
+    left: 22px;
+    position: absolute;
+    z-index: 4;
+    top: 16px;
+}
+.tri-left-bot{
+    left: 16px;
+    position: absolute;
+    z-index: 4;
+    top: 16px;
+}
+/* .clients .arrows{
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+.red-ball-bot{
+    position: absolute;
+}
+.tri-left-bot{
+    position: absolute;
+}
+/* .red-ball-bot{
+    z-index: 2;
+    top: 283px;
+    position: relative;
+    left: -588px;
+}
+.tri-left-bot{
+    position: absolute;
+    z-index: 3;
+    top: 283px;
+    left: -588px;
+} */
